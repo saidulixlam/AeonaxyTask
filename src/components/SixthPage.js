@@ -53,14 +53,14 @@ const SixthPage = () => {
           <p className="text-gray-600 mb-6 mx-6">Choose one to get started. You can switch anytime</p>
           <div className="flex flex-col sm:flex-row justify-center items-center mb-8 space-y-4 sm:space-y-0 sm:space-x-4">
             <div className="flex items-center bg-white rounded-md p-4 my-4 shadow-lg">
-              <img src={courseData.image1} alt="Card 1" className="w-30 h-24 rounded-md mr-4 sm:mr-0 sm:mb-4" />
+              <img src={courseData.image1} alt="Card 1" className="w-30 h-24 mt-4 rounded-md mr-4 sm:mr-0 sm:mb-4" />
               <div className="w-full text-start mx-4 sm:w-60">
                 <p className="font-semibold">Foundation Math</p>
                 <p className="text-gray-600">Build your foundational skills in algebra, geometry, and probability.</p>
               </div>
             </div>
             <div className="flex items-center bg-white rounded-md p-4 shadow-lg">
-              <img src={courseData.image2} alt="Card 2" className="w-30 h-24 rounded-md mr-4 sm:mr-0 sm:mb-4" />
+              <img src={courseData.image2} alt="Card 2" className="w-30 h-24 mt-4 rounded-md mr-4 sm:mr-0 sm:mb-4" />
               <div className="w-full text-start mx-4 sm:w-60">
                 <p className="font-semibold">Foundation Math</p>
                 <p className="text-gray-600">Build your foundational skills in algebra, geometry, and probability.</p>
