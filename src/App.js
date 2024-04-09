@@ -6,7 +6,7 @@ import ThirdPage from './components/ThirdPage';
 import FourthPage from './components/FourthPage';
 import FifthPage from './components/FifthPage';
 import SixthPage from './components/SixthPage';
-import SeventPage from './components/SeventhPage';
+
 const App = () => {
 
   return (
@@ -20,7 +20,7 @@ const App = () => {
             <Route path="/fourth" element={<FourthPage/>} />
             <Route path="/fifth" element={<FifthPage/>} />
             <Route path="/six" element={<SixthPage/>} />
-            <Route path="/seven" element={<SeventPage/>} />
+           
           </Routes>
         </Router>
       </div>
